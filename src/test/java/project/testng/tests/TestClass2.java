@@ -4,7 +4,7 @@ import org.testng.annotations.BeforeClass;
 import org.testng.annotations.Test;
 
 @Test(groups="unitary-tests")
-public class TestClassTwo {
+public class TestClass2 {
 
 	@BeforeClass
 	public void beforeClass() {

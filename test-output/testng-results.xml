@@ -1,13 +1,74 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="1" total="3" passed="2" failed="0" skipped="0">
+<testng-results ignored="1" total="11" passed="10" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2021-06-08T12:16:40 BRT" name="Default suite" finished-at="2021-06-08T12:16:40 BRT" duration-ms="59">
+  <suite started-at="2021-06-08T13:06:30 BRT" name="Parameterized Suite" finished-at="2021-06-08T13:06:30 BRT" duration-ms="410">
     <groups>
+      <group name="boolean">
+        <method signature="TestsReturn.trueFalse()[pri:0, instance:project.testng.testsreturn.TestsReturn@8317c52]" name="trueFalse" class="project.testng.testsreturn.TestsReturn"/>
+      </group> <!-- boolean -->
+      <group name="void">
+        <method signature="TestsReturn.testFourClassReturn()[pri:0, instance:project.testng.testsreturn.TestsReturn@8317c52]" name="testFourClassReturn" class="project.testng.testsreturn.TestsReturn"/>
+        <method signature="TestsReturn.testThreeClassReturn()[pri:0, instance:project.testng.testsreturn.TestsReturn@8317c52]" name="testThreeClassReturn" class="project.testng.testsreturn.TestsReturn"/>
+      </group> <!-- void -->
+      <group name="unitary-tests">
+        <method signature="TestsReturn.salutation(java.lang.String)[pri:0, instance:project.testng.testsreturn.TestsReturn@8317c52]" name="salutation" class="project.testng.testsreturn.TestsReturn"/>
+        <method signature="TestsReturn.testFourClassReturn()[pri:0, instance:project.testng.testsreturn.TestsReturn@8317c52]" name="testFourClassReturn" class="project.testng.testsreturn.TestsReturn"/>
+        <method signature="TestsReturn.testThreeClassReturn()[pri:0, instance:project.testng.testsreturn.TestsReturn@8317c52]" name="testThreeClassReturn" class="project.testng.testsreturn.TestsReturn"/>
+        <method signature="TestsReturn.trueFalse()[pri:0, instance:project.testng.testsreturn.TestsReturn@8317c52]" name="trueFalse" class="project.testng.testsreturn.TestsReturn"/>
+      </group> <!-- unitary-tests -->
+      <group name="return-tests">
+        <method signature="TestsReturn.salutation(java.lang.String)[pri:0, instance:project.testng.testsreturn.TestsReturn@8317c52]" name="salutation" class="project.testng.testsreturn.TestsReturn"/>
+        <method signature="TestsReturn.testFourClassReturn()[pri:0, instance:project.testng.testsreturn.TestsReturn@8317c52]" name="testFourClassReturn" class="project.testng.testsreturn.TestsReturn"/>
+        <method signature="TestsReturn.testThreeClassReturn()[pri:0, instance:project.testng.testsreturn.TestsReturn@8317c52]" name="testThreeClassReturn" class="project.testng.testsreturn.TestsReturn"/>
+        <method signature="TestsReturn.trueFalse()[pri:0, instance:project.testng.testsreturn.TestsReturn@8317c52]" name="trueFalse" class="project.testng.testsreturn.TestsReturn"/>
+      </group> <!-- return-tests -->
+      <group name="integration">
+        <method signature="TestsReturn.testFourClassReturn()[pri:0, instance:project.testng.testsreturn.TestsReturn@8317c52]" name="testFourClassReturn" class="project.testng.testsreturn.TestsReturn"/>
+        <method signature="TestsReturn.trueFalse()[pri:0, instance:project.testng.testsreturn.TestsReturn@8317c52]" name="trueFalse" class="project.testng.testsreturn.TestsReturn"/>
+      </group> <!-- integration -->
+      <group name="unitary">
+        <method signature="TestsReturn.salutation(java.lang.String)[pri:0, instance:project.testng.testsreturn.TestsReturn@8317c52]" name="salutation" class="project.testng.testsreturn.TestsReturn"/>
+        <method signature="TestsReturn.testThreeClassReturn()[pri:0, instance:project.testng.testsreturn.TestsReturn@8317c52]" name="testThreeClassReturn" class="project.testng.testsreturn.TestsReturn"/>
+      </group> <!-- unitary -->
+      <group name="integration-tests">
+        <method signature="Package2Test1.packageTwoTestFour()[pri:0, instance:project.testng.newtests.Package2Test1@c333c60]" name="packageTwoTestFour" class="project.testng.newtests.Package2Test1"/>
+        <method signature="Package2Test1.packageTwoTestOne(java.lang.String)[pri:0, instance:project.testng.newtests.Package2Test1@c333c60]" name="packageTwoTestOne" class="project.testng.newtests.Package2Test1"/>
+        <method signature="Package2Test1.packageTwoTestThree()[pri:0, instance:project.testng.newtests.Package2Test1@c333c60]" name="packageTwoTestThree" class="project.testng.newtests.Package2Test1"/>
+        <method signature="Package2Test1.packageTwoTestTwo(java.lang.String)[pri:0, instance:project.testng.newtests.Package2Test1@c333c60]" name="packageTwoTestTwo" class="project.testng.newtests.Package2Test1"/>
+      </group> <!-- integration-tests -->
+      <group name="return">
+        <method signature="TestsReturn.salutation(java.lang.String)[pri:0, instance:project.testng.testsreturn.TestsReturn@8317c52]" name="salutation" class="project.testng.testsreturn.TestsReturn"/>
+      </group> <!-- return -->
     </groups>
-    <test started-at="2021-06-08T12:16:40 BRT" name="Default test" finished-at="2021-06-08T12:16:40 BRT" duration-ms="59">
+    <test started-at="2021-06-08T13:06:30 BRT" name="Parameters Tests" finished-at="2021-06-08T13:06:30 BRT" duration-ms="109">
+      <class name="project.testng.testsreturn.TestsReturn">
+        <test-method signature="salutation(java.lang.String)[pri:0, instance:project.testng.testsreturn.TestsReturn@8317c52]" started-at="2021-06-08T13:06:30 BRT" name="salutation" finished-at="2021-06-08T13:06:30 BRT" duration-ms="4" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Boa noite!]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- salutation -->
+        <test-method signature="testFourClassReturn()[pri:0, instance:project.testng.testsreturn.TestsReturn@8317c52]" started-at="2021-06-08T13:06:30 BRT" name="testFourClassReturn" finished-at="2021-06-08T13:06:30 BRT" duration-ms="4" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testFourClassReturn -->
+        <test-method signature="testThreeClassReturn()[pri:0, instance:project.testng.testsreturn.TestsReturn@8317c52]" started-at="2021-06-08T13:06:30 BRT" name="testThreeClassReturn" finished-at="2021-06-08T13:06:30 BRT" duration-ms="3" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testThreeClassReturn -->
+        <test-method signature="trueFalse()[pri:0, instance:project.testng.testsreturn.TestsReturn@8317c52]" started-at="2021-06-08T13:06:30 BRT" name="trueFalse" finished-at="2021-06-08T13:06:30 BRT" duration-ms="3" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- trueFalse -->
+      </class> <!-- project.testng.testsreturn.TestsReturn -->
       <class name="project.testng.parameterizedtests.ParameterizedTests">
-        <test-method signature="nomes(java.lang.String, int, double)[pri:0, instance:project.testng.parameterizedtests.ParameterizedTests@71c3b41]" started-at="2021-06-08T12:16:40 BRT" name="nomes" data-provider="tests_data" finished-at="2021-06-08T12:16:40 BRT" duration-ms="11" status="PASS">
+        <test-method signature="names(java.lang.String, int, double)[pri:0, instance:project.testng.parameterizedtests.ParameterizedTests@78ffe6dc]" started-at="2021-06-08T13:06:30 BRT" name="names" data-provider="data_tests" finished-at="2021-06-08T13:06:30 BRT" duration-ms="12" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -27,8 +88,8 @@
           </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- nomes -->
-        <test-method signature="nomes(java.lang.String, int, double)[pri:0, instance:project.testng.parameterizedtests.ParameterizedTests@71c3b41]" started-at="2021-06-08T12:16:40 BRT" name="nomes" data-provider="tests_data" finished-at="2021-06-08T12:16:40 BRT" duration-ms="2" status="PASS">
+        </test-method> <!-- names -->
+        <test-method signature="names(java.lang.String, int, double)[pri:0, instance:project.testng.parameterizedtests.ParameterizedTests@78ffe6dc]" started-at="2021-06-08T13:06:30 BRT" name="names" data-provider="data_tests" finished-at="2021-06-08T13:06:30 BRT" duration-ms="5" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -48,8 +109,92 @@
           </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- nomes -->
+        </test-method> <!-- names -->
       </class> <!-- project.testng.parameterizedtests.ParameterizedTests -->
-    </test> <!-- Default test -->
-  </suite> <!-- Default suite -->
+    </test> <!-- Parameters Tests -->
+    <test started-at="2021-06-08T13:06:30 BRT" name="Parameters Tests 2" finished-at="2021-06-08T13:06:30 BRT" duration-ms="24">
+      <class name="project.testng.newtests.Package2Test1">
+        <test-method is-config="true" signature="name(java.lang.String)[pri:0, instance:project.testng.newtests.Package2Test1@c333c60]" started-at="2021-06-08T13:06:30 BRT" name="name" finished-at="2021-06-08T13:06:30 BRT" duration-ms="3" status="PASS">
+          <params>
+            <param index="0">
+              <value is-null="true"/>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- name -->
+        <test-method is-config="true" signature="Methodname(java.lang.String)[pri:0, instance:project.testng.newtests.Package2Test1@c333c60]" started-at="2021-06-08T13:06:30 BRT" name="Methodname" finished-at="2021-06-08T13:06:30 BRT" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value is-null="true"/>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Methodname -->
+        <test-method is-config="true" signature="Classname(java.lang.String)[pri:0, instance:project.testng.newtests.Package2Test1@c333c60]" started-at="2021-06-08T13:06:30 BRT" name="Classname" finished-at="2021-06-08T13:06:30 BRT" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value is-null="true"/>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Classname -->
+        <test-method signature="packageTwoTestFour()[pri:0, instance:project.testng.newtests.Package2Test1@c333c60]" started-at="2021-06-08T13:06:30 BRT" name="packageTwoTestFour" finished-at="2021-06-08T13:06:30 BRT" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- packageTwoTestFour -->
+        <test-method is-config="true" signature="Methodname(java.lang.String)[pri:0, instance:project.testng.newtests.Package2Test1@c333c60]" started-at="2021-06-08T13:06:30 BRT" name="Methodname" finished-at="2021-06-08T13:06:30 BRT" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value is-null="true"/>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Methodname -->
+        <test-method signature="packageTwoTestOne(java.lang.String)[pri:0, instance:project.testng.newtests.Package2Test1@c333c60]" started-at="2021-06-08T13:06:30 BRT" name="packageTwoTestOne" finished-at="2021-06-08T13:06:30 BRT" duration-ms="2" status="PASS">
+          <params>
+            <param index="0">
+              <value is-null="true"/>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- packageTwoTestOne -->
+        <test-method is-config="true" signature="Methodname(java.lang.String)[pri:0, instance:project.testng.newtests.Package2Test1@c333c60]" started-at="2021-06-08T13:06:30 BRT" name="Methodname" finished-at="2021-06-08T13:06:30 BRT" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value is-null="true"/>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Methodname -->
+        <test-method signature="packageTwoTestThree()[pri:0, instance:project.testng.newtests.Package2Test1@c333c60]" started-at="2021-06-08T13:06:30 BRT" name="packageTwoTestThree" finished-at="2021-06-08T13:06:30 BRT" duration-ms="3" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- packageTwoTestThree -->
+        <test-method is-config="true" signature="Methodname(java.lang.String)[pri:0, instance:project.testng.newtests.Package2Test1@c333c60]" started-at="2021-06-08T13:06:30 BRT" name="Methodname" finished-at="2021-06-08T13:06:30 BRT" duration-ms="2" status="PASS">
+          <params>
+            <param index="0">
+              <value is-null="true"/>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Methodname -->
+        <test-method signature="packageTwoTestTwo(java.lang.String)[pri:0, instance:project.testng.newtests.Package2Test1@c333c60]" started-at="2021-06-08T13:06:30 BRT" name="packageTwoTestTwo" finished-at="2021-06-08T13:06:30 BRT" duration-ms="2" status="PASS">
+          <params>
+            <param index="0">
+              <value is-null="true"/>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- packageTwoTestTwo -->
+      </class> <!-- project.testng.newtests.Package2Test1 -->
+    </test> <!-- Parameters Tests 2 -->
+  </suite> <!-- Parameterized Suite -->
 </testng-results>

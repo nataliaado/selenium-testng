@@ -6,20 +6,20 @@ import org.testng.annotations.Test;
 
 public class ParameterizedTests {
 
-	@Test(dataProvider = "tests_data")
-	public void nomes(String nome, int idade, double altura) {
-		System.out.println("Nome: " + nome);
-		System.out.println("Idade: " + idade);
-		System.out.println("Altura: " + altura);
+	@Test(dataProvider = "data_tests")
+	public void names(String name, int age, double height) {
+		System.out.println("Name: " + name);
+		System.out.println("Age: " + age);
+		System.out.println("Height: " + height);
 	}
 
 	@Ignore
 	@Test
-	public void cores(String cor) {
-		System.out.println(cor);
+	public void colors(String color) {
+		System.out.println(color);
 	}
 
-	@DataProvider(name = "tests_data")
+	@DataProvider(name = "data_tests")
 	public Object[][] data() {
 		
 		return new Object[][] { { "Natalia", new Integer(34), new Double(1.80) },

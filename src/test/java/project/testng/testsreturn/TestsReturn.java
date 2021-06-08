@@ -1,14 +1,16 @@
 package project.testng.testsreturn;
 
+import org.testng.annotations.Parameters;
 import org.testng.annotations.Test;
 
 @Test(groups = { "return-tests", "unitary-tests" })
 public class TestsReturn {
 
+	@Parameters("salutation")
 	@Test(groups = { "return", "unitary" })
-	public String salutation() {
-		System.out.println("Good morning");
-		return "Good morning";
+	public String salutation(String salutation) {
+		System.out.println(salutation);
+		return salutation;
 	}
 
 	@Test(groups = { "boolean", "integration" })
