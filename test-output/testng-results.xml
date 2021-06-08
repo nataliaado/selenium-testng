@@ -1,115 +1,55 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="6" total="16" passed="10" failed="0" skipped="0">
+<testng-results ignored="1" total="3" passed="2" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2021-05-31T15:24:00 BRT" name="General Suite" finished-at="2021-05-31T15:24:00 BRT" duration-ms="93">
+  <suite started-at="2021-06-08T12:16:40 BRT" name="Default suite" finished-at="2021-06-08T12:16:40 BRT" duration-ms="59">
     <groups>
-      <group name="functional">
-        <method signature="Tests.testTwo()[pri:0, instance:project.testng.tests.Tests@3246fb96]" name="testTwo" class="project.testng.tests.Tests"/>
-      </group> <!-- functional -->
-      <group name="boolean">
-        <method signature="TestsReturn.trueFalse()[pri:0, instance:project.testng.testsreturn.TestsReturn@2e222612]" name="trueFalse" class="project.testng.testsreturn.TestsReturn"/>
-      </group> <!-- boolean -->
-      <group name="void">
-        <method signature="TestsReturn.testFourClassReturn()[pri:0, instance:project.testng.testsreturn.TestsReturn@2e222612]" name="testFourClassReturn" class="project.testng.testsreturn.TestsReturn"/>
-        <method signature="TestsReturn.testThreeClassReturn()[pri:0, instance:project.testng.testsreturn.TestsReturn@2e222612]" name="testThreeClassReturn" class="project.testng.testsreturn.TestsReturn"/>
-      </group> <!-- void -->
-      <group name="unitary-tests">
-        <method signature="TestClassTwo.testFourClassTwo()[pri:0, instance:project.testng.tests.TestClassTwo@77eca502]" name="testFourClassTwo" class="project.testng.tests.TestClassTwo"/>
-        <method signature="TestClassTwo.testOneClassTwo()[pri:0, instance:project.testng.tests.TestClassTwo@77eca502]" name="testOneClassTwo" class="project.testng.tests.TestClassTwo"/>
-        <method signature="TestClassTwo.testThreeClassTwo()[pri:0, instance:project.testng.tests.TestClassTwo@77eca502]" name="testThreeClassTwo" class="project.testng.tests.TestClassTwo"/>
-        <method signature="TestClassTwo.testTwoClassTwo()[pri:0, instance:project.testng.tests.TestClassTwo@77eca502]" name="testTwoClassTwo" class="project.testng.tests.TestClassTwo"/>
-        <method signature="TestsReturn.salutation()[pri:0, instance:project.testng.testsreturn.TestsReturn@2e222612]" name="salutation" class="project.testng.testsreturn.TestsReturn"/>
-        <method signature="TestsReturn.testFourClassReturn()[pri:0, instance:project.testng.testsreturn.TestsReturn@2e222612]" name="testFourClassReturn" class="project.testng.testsreturn.TestsReturn"/>
-        <method signature="TestsReturn.testThreeClassReturn()[pri:0, instance:project.testng.testsreturn.TestsReturn@2e222612]" name="testThreeClassReturn" class="project.testng.testsreturn.TestsReturn"/>
-        <method signature="TestsReturn.trueFalse()[pri:0, instance:project.testng.testsreturn.TestsReturn@2e222612]" name="trueFalse" class="project.testng.testsreturn.TestsReturn"/>
-      </group> <!-- unitary-tests -->
-      <group name="return-tests">
-        <method signature="TestsReturn.salutation()[pri:0, instance:project.testng.testsreturn.TestsReturn@2e222612]" name="salutation" class="project.testng.testsreturn.TestsReturn"/>
-        <method signature="TestsReturn.testFourClassReturn()[pri:0, instance:project.testng.testsreturn.TestsReturn@2e222612]" name="testFourClassReturn" class="project.testng.testsreturn.TestsReturn"/>
-        <method signature="TestsReturn.testThreeClassReturn()[pri:0, instance:project.testng.testsreturn.TestsReturn@2e222612]" name="testThreeClassReturn" class="project.testng.testsreturn.TestsReturn"/>
-        <method signature="TestsReturn.trueFalse()[pri:0, instance:project.testng.testsreturn.TestsReturn@2e222612]" name="trueFalse" class="project.testng.testsreturn.TestsReturn"/>
-      </group> <!-- return-tests -->
-      <group name="unitary">
-        <method signature="TestClassTwo.testOneClassTwo()[pri:0, instance:project.testng.tests.TestClassTwo@77eca502]" name="testOneClassTwo" class="project.testng.tests.TestClassTwo"/>
-        <method signature="TestClassTwo.testTwoClassTwo()[pri:0, instance:project.testng.tests.TestClassTwo@77eca502]" name="testTwoClassTwo" class="project.testng.tests.TestClassTwo"/>
-        <method signature="TestsReturn.salutation()[pri:0, instance:project.testng.testsreturn.TestsReturn@2e222612]" name="salutation" class="project.testng.testsreturn.TestsReturn"/>
-        <method signature="TestsReturn.testThreeClassReturn()[pri:0, instance:project.testng.testsreturn.TestsReturn@2e222612]" name="testThreeClassReturn" class="project.testng.testsreturn.TestsReturn"/>
-      </group> <!-- unitary -->
-      <group name="integration">
-        <method signature="TestClassTwo.testFourClassTwo()[pri:0, instance:project.testng.tests.TestClassTwo@77eca502]" name="testFourClassTwo" class="project.testng.tests.TestClassTwo"/>
-        <method signature="TestClassTwo.testThreeClassTwo()[pri:0, instance:project.testng.tests.TestClassTwo@77eca502]" name="testThreeClassTwo" class="project.testng.tests.TestClassTwo"/>
-        <method signature="Tests.testFour()[pri:0, instance:project.testng.tests.Tests@3246fb96]" name="testFour" class="project.testng.tests.Tests"/>
-        <method signature="TestsReturn.testFourClassReturn()[pri:0, instance:project.testng.testsreturn.TestsReturn@2e222612]" name="testFourClassReturn" class="project.testng.testsreturn.TestsReturn"/>
-        <method signature="TestsReturn.trueFalse()[pri:0, instance:project.testng.testsreturn.TestsReturn@2e222612]" name="trueFalse" class="project.testng.testsreturn.TestsReturn"/>
-      </group> <!-- integration -->
-      <group name="return">
-        <method signature="TestsReturn.salutation()[pri:0, instance:project.testng.testsreturn.TestsReturn@2e222612]" name="salutation" class="project.testng.testsreturn.TestsReturn"/>
-      </group> <!-- return -->
-      <group name="functional-tests">
-        <method signature="Tests.testFour()[pri:0, instance:project.testng.tests.Tests@3246fb96]" name="testFour" class="project.testng.tests.Tests"/>
-        <method signature="Tests.testTwo()[pri:0, instance:project.testng.tests.Tests@3246fb96]" name="testTwo" class="project.testng.tests.Tests"/>
-      </group> <!-- functional-tests -->
     </groups>
-    <test started-at="2021-05-31T15:24:00 BRT" name="Regression" finished-at="2021-05-31T15:24:00 BRT" duration-ms="93">
-      <class name="project.testng.tests.Tests">
-        <test-method signature="testFour()[pri:0, instance:project.testng.tests.Tests@3246fb96]" started-at="2021-05-31T15:24:00 BRT" name="testFour" finished-at="2021-05-31T15:24:00 BRT" duration-ms="2" status="PASS">
+    <test started-at="2021-06-08T12:16:40 BRT" name="Default test" finished-at="2021-06-08T12:16:40 BRT" duration-ms="59">
+      <class name="project.testng.parameterizedtests.ParameterizedTests">
+        <test-method signature="nomes(java.lang.String, int, double)[pri:0, instance:project.testng.parameterizedtests.ParameterizedTests@71c3b41]" started-at="2021-06-08T12:16:40 BRT" name="nomes" data-provider="tests_data" finished-at="2021-06-08T12:16:40 BRT" duration-ms="11" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Natalia]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[34]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[1.8]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- testFour -->
-        <test-method signature="testTwo()[pri:0, instance:project.testng.tests.Tests@3246fb96]" started-at="2021-05-31T15:24:00 BRT" name="testTwo" finished-at="2021-05-31T15:24:00 BRT" duration-ms="2" status="PASS">
+        </test-method> <!-- nomes -->
+        <test-method signature="nomes(java.lang.String, int, double)[pri:0, instance:project.testng.parameterizedtests.ParameterizedTests@71c3b41]" started-at="2021-06-08T12:16:40 BRT" name="nomes" data-provider="tests_data" finished-at="2021-06-08T12:16:40 BRT" duration-ms="2" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Maria]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[50]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[1.6]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- testTwo -->
-      </class> <!-- project.testng.tests.Tests -->
-      <class name="project.testng.testsreturn.TestsReturn">
-        <test-method signature="salutation()[pri:0, instance:project.testng.testsreturn.TestsReturn@2e222612]" started-at="2021-05-31T15:24:00 BRT" name="salutation" finished-at="2021-05-31T15:24:00 BRT" duration-ms="2" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- salutation -->
-        <test-method signature="testFourClassReturn()[pri:0, instance:project.testng.testsreturn.TestsReturn@2e222612]" started-at="2021-05-31T15:24:00 BRT" name="testFourClassReturn" finished-at="2021-05-31T15:24:00 BRT" duration-ms="1" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- testFourClassReturn -->
-        <test-method signature="testThreeClassReturn()[pri:0, instance:project.testng.testsreturn.TestsReturn@2e222612]" started-at="2021-05-31T15:24:00 BRT" name="testThreeClassReturn" finished-at="2021-05-31T15:24:00 BRT" duration-ms="2" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- testThreeClassReturn -->
-        <test-method signature="trueFalse()[pri:0, instance:project.testng.testsreturn.TestsReturn@2e222612]" started-at="2021-05-31T15:24:00 BRT" name="trueFalse" finished-at="2021-05-31T15:24:00 BRT" duration-ms="1" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- trueFalse -->
-      </class> <!-- project.testng.testsreturn.TestsReturn -->
-      <class name="project.testng.tests.TestClassTwo">
-        <test-method is-config="true" signature="beforeClass()[pri:0, instance:project.testng.tests.TestClassTwo@77eca502]" started-at="2021-05-31T15:24:00 BRT" name="beforeClass" finished-at="2021-05-31T15:24:00 BRT" duration-ms="7" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- beforeClass -->
-        <test-method signature="testFourClassTwo()[pri:0, instance:project.testng.tests.TestClassTwo@77eca502]" started-at="2021-05-31T15:24:00 BRT" name="testFourClassTwo" finished-at="2021-05-31T15:24:00 BRT" duration-ms="6" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- testFourClassTwo -->
-        <test-method is-config="true" signature="beforeClass()[pri:0, instance:project.testng.tests.TestClassTwo@77eca502]" started-at="2021-05-31T15:24:00 BRT" name="beforeClass" finished-at="2021-05-31T15:24:00 BRT" duration-ms="0" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- beforeClass -->
-        <test-method signature="testOneClassTwo()[pri:0, instance:project.testng.tests.TestClassTwo@77eca502]" started-at="2021-05-31T15:24:00 BRT" name="testOneClassTwo" finished-at="2021-05-31T15:24:00 BRT" duration-ms="2" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- testOneClassTwo -->
-        <test-method signature="testThreeClassTwo()[pri:0, instance:project.testng.tests.TestClassTwo@77eca502]" started-at="2021-05-31T15:24:00 BRT" name="testThreeClassTwo" finished-at="2021-05-31T15:24:00 BRT" duration-ms="4" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- testThreeClassTwo -->
-        <test-method signature="testTwoClassTwo()[pri:0, instance:project.testng.tests.TestClassTwo@77eca502]" started-at="2021-05-31T15:24:00 BRT" name="testTwoClassTwo" finished-at="2021-05-31T15:24:00 BRT" duration-ms="2" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- testTwoClassTwo -->
-        <test-method is-config="true" signature="beforeClass()[pri:0, instance:project.testng.tests.TestClassTwo@77eca502]" started-at="2021-05-31T15:24:00 BRT" name="beforeClass" finished-at="2021-05-31T15:24:00 BRT" duration-ms="1" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- beforeClass -->
-      </class> <!-- project.testng.tests.TestClassTwo -->
-    </test> <!-- Regression -->
-  </suite> <!-- General Suite -->
+        </test-method> <!-- nomes -->
+      </class> <!-- project.testng.parameterizedtests.ParameterizedTests -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
 </testng-results>
