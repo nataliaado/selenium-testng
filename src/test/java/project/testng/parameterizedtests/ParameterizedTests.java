@@ -21,8 +21,9 @@ public class ParameterizedTests {
 
 	@DataProvider(name = "data_tests")
 	public Object[][] data() {
-		
+
 		return new Object[][] { { "Natalia", new Integer(34), new Double(1.80) },
 				{ "Maria", new Integer(50), new Double(1.60) } };
 	}
+
 }

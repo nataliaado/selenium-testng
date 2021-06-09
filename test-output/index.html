@@ -24,7 +24,7 @@
     <div class="top-banner-root">
       <span class="top-banner-title-font">Test results</span>
       <br/>
-      <span class="top-banner-font-1">1 suite</span>
+      <span class="top-banner-font-1">1 suite, 1 failed test</span>
     </div> <!-- top-banner-root -->
     <div class="navigator-root">
       <div class="navigator-suite-header">
@@ -38,7 +38,7 @@
         <div class="rounded-window">
           <div class="suite-header light-rounded-window-top">
             <a href="#" panel-name="suite-Parameterized_Suite" class="navigator-link">
-              <span class="suite-name border-passed">Parameterized Suite</span>
+              <span class="suite-name border-failed">Parameterized Suite</span>
             </a> <!-- navigator-link -->
           </div> <!-- suite-header light-rounded-window-top -->
           <div class="navigator-suite-content">
@@ -49,17 +49,17 @@
               <ul>
                 <li>
                   <a href="#" panel-name="test-xml-Parameterized_Suite" class="navigator-link ">
-                    <span>C:\Users\Nataliaado\Desktop\testng\testngParameterized.xml</span>
+                    <span>C:\Users\Nataliaado\Desktop\testng\testngListener.xml</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
                   <a href="#" panel-name="testlist-Parameterized_Suite" class="navigator-link ">
-                    <span class="test-stats">2 tests</span>
+                    <span class="test-stats">1 test</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
                   <a href="#" panel-name="group-Parameterized_Suite" class="navigator-link ">
-                    <span>8 groups</span>
+                    <span>3 groups</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
@@ -91,7 +91,35 @@
               <div class="suite-section-content">
                 <ul>
                   <li>
-                    <span class="method-stats">10 methods,   10 passed</span>
+                    <span class="method-stats">4 methods, 1 failed,  1 skipped,  2 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title failed">Failed methods</span>
+                    <span class="show-or-hide-methods failed">
+                      <a href="#" panel-name="suite-Parameterized_Suite" class="hide-methods failed suite-Parameterized_Suite"> (hide)</a> <!-- hide-methods failed suite-Parameterized_Suite -->
+                      <a href="#" panel-name="suite-Parameterized_Suite" class="show-methods failed suite-Parameterized_Suite"> (show)</a> <!-- show-methods failed suite-Parameterized_Suite -->
+                    </span>
+                    <div class="method-list-content failed suite-Parameterized_Suite">
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Parameterized_Suite" title="project.testng.tests.TestClass2" class="method navigator-link" hash-for-method="testThreeClassTwo">testThreeClassTwo</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content failed suite-Parameterized_Suite -->
+                  </li>
+                  <li>
+                    <span class="method-list-title skipped">Skipped methods</span>
+                    <span class="show-or-hide-methods skipped">
+                      <a href="#" panel-name="suite-Parameterized_Suite" class="hide-methods skipped suite-Parameterized_Suite"> (hide)</a> <!-- hide-methods skipped suite-Parameterized_Suite -->
+                      <a href="#" panel-name="suite-Parameterized_Suite" class="show-methods skipped suite-Parameterized_Suite"> (show)</a> <!-- show-methods skipped suite-Parameterized_Suite -->
+                    </span>
+                    <div class="method-list-content skipped suite-Parameterized_Suite">
+                      <span>
+                        <img src="skipped.png" width="3%"/>
+                        <a href="#" panel-name="suite-Parameterized_Suite" title="project.testng.tests.TestClass2" class="method navigator-link" hash-for-method="testOneClassTwo">testOneClassTwo</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content skipped suite-Parameterized_Suite -->
                   </li>
                   <li>
                     <span class="method-list-title passed">Passed methods</span>
@@ -102,52 +130,12 @@
                     <div class="method-list-content passed suite-Parameterized_Suite">
                       <span>
                         <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Parameterized_Suite" title="project.testng.parameterizedtests.ParameterizedTests" class="method navigator-link" hash-for-method="names(Natalia, 34, 1.8)">names(Natalia, 34, 1.8)</a> <!-- method navigator-link -->
+                        <a href="#" panel-name="suite-Parameterized_Suite" title="project.testng.tests.TestClass2" class="method navigator-link" hash-for-method="testFourClassTwo">testFourClassTwo</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
                         <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Parameterized_Suite" title="project.testng.parameterizedtests.ParameterizedTests" class="method navigator-link" hash-for-method="names(Maria, 50, 1.6)">names(Maria, 50, 1.6)</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Parameterized_Suite" title="project.testng.newtests.Package2Test1" class="method navigator-link" hash-for-method="packageTwoTestFour">packageTwoTestFour</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Parameterized_Suite" title="project.testng.newtests.Package2Test1" class="method navigator-link" hash-for-method="packageTwoTestOne(null)">packageTwoTestOne(null)</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Parameterized_Suite" title="project.testng.newtests.Package2Test1" class="method navigator-link" hash-for-method="packageTwoTestThree">packageTwoTestThree</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Parameterized_Suite" title="project.testng.newtests.Package2Test1" class="method navigator-link" hash-for-method="packageTwoTestTwo(null)">packageTwoTestTwo(null)</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Parameterized_Suite" title="project.testng.testsreturn.TestsReturn" class="method navigator-link" hash-for-method="salutation(Boa noite!)">salutation(Boa noite!)</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Parameterized_Suite" title="project.testng.testsreturn.TestsReturn" class="method navigator-link" hash-for-method="testFourClassReturn">testFourClassReturn</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Parameterized_Suite" title="project.testng.testsreturn.TestsReturn" class="method navigator-link" hash-for-method="testThreeClassReturn">testThreeClassReturn</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Parameterized_Suite" title="project.testng.testsreturn.TestsReturn" class="method navigator-link" hash-for-method="trueFalse">trueFalse</a> <!-- method navigator-link -->
+                        <a href="#" panel-name="suite-Parameterized_Suite" title="project.testng.tests.TestClass2" class="method navigator-link" hash-for-method="testTwoClassTwo">testTwoClassTwo</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                     </div> <!-- method-list-content passed suite-Parameterized_Suite -->
@@ -162,101 +150,64 @@
     <div class="wrapper">
       <div class="main-panel-root">
         <div panel-name="suite-Parameterized_Suite" class="panel Parameterized_Suite">
-          <div class="suite-Parameterized_Suite-class-passed">
+          <div class="suite-Parameterized_Suite-class-failed">
             <div class="main-panel-header rounded-window-top">
-              <img src="passed.png"/>
-              <span class="class-name">project.testng.testsreturn.TestsReturn</span>
+              <img src="failed.png"/>
+              <span class="class-name">project.testng.tests.TestClass2</span>
             </div> <!-- main-panel-header rounded-window-top -->
             <div class="main-panel-content rounded-window-bottom">
               <div class="method">
                 <div class="method-content">
-                  <a name="salutation(Boa noite!)">
-                  </a> <!-- salutation(Boa noite!) -->
-                  <span class="method-name">salutation</span>
-                  <span class="parameters">(Boa noite!)</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
-                  <a name="testFourClassReturn">
-                  </a> <!-- testFourClassReturn -->
-                  <span class="method-name">testFourClassReturn</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
-                  <a name="testThreeClassReturn">
-                  </a> <!-- testThreeClassReturn -->
-                  <span class="method-name">testThreeClassReturn</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
-                  <a name="trueFalse">
-                  </a> <!-- trueFalse -->
-                  <span class="method-name">trueFalse</span>
+                  <a name="testThreeClassTwo">
+                  </a> <!-- testThreeClassTwo -->
+                  <span class="method-name">testThreeClassTwo</span>
+                  <div class="stack-trace">com.google.inject.internal.ErrorsException
+	at project.testng.tests.TestClass2.testThreeClassTwo(TestClass2.java:31)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 27 stack frames
+</div> <!-- stack-trace -->
                 </div> <!-- method-content -->
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
-          </div> <!-- suite-Parameterized_Suite-class-passed -->
-          <div class="suite-Parameterized_Suite-class-passed">
+          </div> <!-- suite-Parameterized_Suite-class-failed -->
+          <div class="suite-Parameterized_Suite-class-skipped">
             <div class="main-panel-header rounded-window-top">
-              <img src="passed.png"/>
-              <span class="class-name">project.testng.parameterizedtests.ParameterizedTests</span>
+              <img src="skipped.png"/>
+              <span class="class-name">project.testng.tests.TestClass2</span>
             </div> <!-- main-panel-header rounded-window-top -->
             <div class="main-panel-content rounded-window-bottom">
               <div class="method">
                 <div class="method-content">
-                  <a name="names(Natalia, 34, 1.8)">
-                  </a> <!-- names(Natalia, 34, 1.8) -->
-                  <span class="method-name">names</span>
-                  <span class="parameters">(Natalia, 34, 1.8)</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
-                  <a name="names(Maria, 50, 1.6)">
-                  </a> <!-- names(Maria, 50, 1.6) -->
-                  <span class="method-name">names</span>
-                  <span class="parameters">(Maria, 50, 1.6)</span>
+                  <a name="testOneClassTwo">
+                  </a> <!-- testOneClassTwo -->
+                  <span class="method-name">testOneClassTwo</span>
+                  <div class="stack-trace">org.testng.SkipException: Skipped test
+	at project.testng.tests.TestClass2.testOneClassTwo(TestClass2.java:20)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 27 stack frames
+</div> <!-- stack-trace -->
                 </div> <!-- method-content -->
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
-          </div> <!-- suite-Parameterized_Suite-class-passed -->
+          </div> <!-- suite-Parameterized_Suite-class-skipped -->
           <div class="suite-Parameterized_Suite-class-passed">
             <div class="main-panel-header rounded-window-top">
               <img src="passed.png"/>
-              <span class="class-name">project.testng.newtests.Package2Test1</span>
+              <span class="class-name">project.testng.tests.TestClass2</span>
             </div> <!-- main-panel-header rounded-window-top -->
             <div class="main-panel-content rounded-window-bottom">
               <div class="method">
                 <div class="method-content">
-                  <a name="packageTwoTestFour">
-                  </a> <!-- packageTwoTestFour -->
-                  <span class="method-name">packageTwoTestFour</span>
+                  <a name="testFourClassTwo">
+                  </a> <!-- testFourClassTwo -->
+                  <span class="method-name">testFourClassTwo</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
               <div class="method">
                 <div class="method-content">
-                  <a name="packageTwoTestOne(null)">
-                  </a> <!-- packageTwoTestOne(null) -->
-                  <span class="method-name">packageTwoTestOne</span>
-                  <span class="parameters">(null)</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
-                  <a name="packageTwoTestThree">
-                  </a> <!-- packageTwoTestThree -->
-                  <span class="method-name">packageTwoTestThree</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
-                  <a name="packageTwoTestTwo(null)">
-                  </a> <!-- packageTwoTestTwo(null) -->
-                  <span class="method-name">packageTwoTestTwo</span>
-                  <span class="parameters">(null)</span>
+                  <a name="testTwoClassTwo">
+                  </a> <!-- testTwoClassTwo -->
+                  <span class="method-name">testTwoClassTwo</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
@@ -264,35 +215,21 @@
         </div> <!-- panel Parameterized_Suite -->
         <div panel-name="test-xml-Parameterized_Suite" class="panel">
           <div class="main-panel-header rounded-window-top">
-            <span class="header-content">C:\Users\Nataliaado\Desktop\testng\testngParameterized.xml</span>
+            <span class="header-content">C:\Users\Nataliaado\Desktop\testng\testngListener.xml</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <pre>
 &lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
 &lt;!DOCTYPE suite SYSTEM &quot;https://testng.org/testng-1.0.dtd&quot;&gt;
-&lt;suite name=&quot;Parameterized Suite&quot; guice-stage=&quot;DEVELOPMENT&quot; allow-return-values=&quot;true&quot; verbose=&quot;10&quot;&gt;
-  &lt;test thread-count=&quot;5&quot; name=&quot;Parameters Tests&quot; verbose=&quot;10&quot;&gt;
-    &lt;parameter name=&quot;lastName&quot; value=&quot;Natalia&quot;/&gt;
-    &lt;parameter name=&quot;color&quot; value=&quot;Azul&quot;/&gt;
-    &lt;parameter name=&quot;name&quot; value=&quot;Natalia&quot;/&gt;
-    &lt;parameter name=&quot;salutation&quot; value=&quot;Boa noite!&quot;/&gt;
-    &lt;packages&gt;
-      &lt;package name=&quot;project.testng.parameterizedtests&quot;/&gt;
-      &lt;package name=&quot;project.testng.testsreturn&quot;/&gt;
-    &lt;/packages&gt;
+&lt;suite name=&quot;Parameterized Suite&quot; guice-stage=&quot;DEVELOPMENT&quot; allow-return-values=&quot;true&quot;&gt;
+  &lt;listeners&gt;
+    &lt;listener class-name=&quot;project.testng.listener.ListenerTest&quot;/&gt;
+  &lt;/listeners&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;Listener Test&quot;&gt;
     &lt;classes&gt;
-      &lt;class name=&quot;project.testng.parameterizedtests.ParameterizedTests&quot;/&gt;
-      &lt;class name=&quot;project.testng.testsreturn.TestsReturn&quot;/&gt;
+      &lt;class name=&quot;project.testng.tests.TestClass2&quot;/&gt;
     &lt;/classes&gt;
-  &lt;/test&gt; &lt;!-- Parameters Tests --&gt;
-  &lt;test thread-count=&quot;5&quot; name=&quot;Parameters Tests 2&quot; verbose=&quot;10&quot;&gt;
-    &lt;packages&gt;
-      &lt;package name=&quot;project.testng.newtests&quot;/&gt;
-    &lt;/packages&gt;
-    &lt;classes&gt;
-      &lt;class name=&quot;project.testng.newtests.Package2Test1&quot;/&gt;
-    &lt;/classes&gt;
-  &lt;/test&gt; &lt;!-- Parameters Tests 2 --&gt;
+  &lt;/test&gt; &lt;!-- Listener Test --&gt;
 &lt;/suite&gt; &lt;!-- Parameterized Suite --&gt;
             </pre>
           </div> <!-- main-panel-content rounded-window-bottom -->
@@ -304,10 +241,7 @@
           <div class="main-panel-content rounded-window-bottom">
             <ul>
               <li>
-                <span class="test-name">Parameters Tests (2 classes)</span>
-              </li>
-              <li>
-                <span class="test-name">Parameters Tests 2 (1 class)</span>
+                <span class="test-name">Listener Test (1 class)</span>
               </li>
             </ul>
           </div> <!-- main-panel-content rounded-window-bottom -->
@@ -318,70 +252,14 @@
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <div class="test-group">
-              <span class="test-group-name">boolean</span>
-              <br/>
-              <div class="method-in-group">
-                <span class="method-in-group-name">trueFalse</span>
-                <br/>
-              </div> <!-- method-in-group -->
-            </div> <!-- test-group -->
-            <div class="test-group">
               <span class="test-group-name">integration</span>
               <br/>
               <div class="method-in-group">
-                <span class="method-in-group-name">testFourClassReturn</span>
+                <span class="method-in-group-name">testFourClassTwo</span>
                 <br/>
               </div> <!-- method-in-group -->
               <div class="method-in-group">
-                <span class="method-in-group-name">trueFalse</span>
-                <br/>
-              </div> <!-- method-in-group -->
-            </div> <!-- test-group -->
-            <div class="test-group">
-              <span class="test-group-name">integration-tests</span>
-              <br/>
-              <div class="method-in-group">
-                <span class="method-in-group-name">packageTwoTestFour</span>
-                <br/>
-              </div> <!-- method-in-group -->
-              <div class="method-in-group">
-                <span class="method-in-group-name">packageTwoTestOne</span>
-                <br/>
-              </div> <!-- method-in-group -->
-              <div class="method-in-group">
-                <span class="method-in-group-name">packageTwoTestThree</span>
-                <br/>
-              </div> <!-- method-in-group -->
-              <div class="method-in-group">
-                <span class="method-in-group-name">packageTwoTestTwo</span>
-                <br/>
-              </div> <!-- method-in-group -->
-            </div> <!-- test-group -->
-            <div class="test-group">
-              <span class="test-group-name">return</span>
-              <br/>
-              <div class="method-in-group">
-                <span class="method-in-group-name">salutation</span>
-                <br/>
-              </div> <!-- method-in-group -->
-            </div> <!-- test-group -->
-            <div class="test-group">
-              <span class="test-group-name">return-tests</span>
-              <br/>
-              <div class="method-in-group">
-                <span class="method-in-group-name">salutation</span>
-                <br/>
-              </div> <!-- method-in-group -->
-              <div class="method-in-group">
-                <span class="method-in-group-name">testFourClassReturn</span>
-                <br/>
-              </div> <!-- method-in-group -->
-              <div class="method-in-group">
-                <span class="method-in-group-name">testThreeClassReturn</span>
-                <br/>
-              </div> <!-- method-in-group -->
-              <div class="method-in-group">
-                <span class="method-in-group-name">trueFalse</span>
+                <span class="method-in-group-name">testThreeClassTwo</span>
                 <br/>
               </div> <!-- method-in-group -->
             </div> <!-- test-group -->
@@ -389,11 +267,11 @@
               <span class="test-group-name">unitary</span>
               <br/>
               <div class="method-in-group">
-                <span class="method-in-group-name">salutation</span>
+                <span class="method-in-group-name">testOneClassTwo</span>
                 <br/>
               </div> <!-- method-in-group -->
               <div class="method-in-group">
-                <span class="method-in-group-name">testThreeClassReturn</span>
+                <span class="method-in-group-name">testTwoClassTwo</span>
                 <br/>
               </div> <!-- method-in-group -->
             </div> <!-- test-group -->
@@ -401,31 +279,19 @@
               <span class="test-group-name">unitary-tests</span>
               <br/>
               <div class="method-in-group">
-                <span class="method-in-group-name">salutation</span>
+                <span class="method-in-group-name">testFourClassTwo</span>
                 <br/>
               </div> <!-- method-in-group -->
               <div class="method-in-group">
-                <span class="method-in-group-name">testFourClassReturn</span>
+                <span class="method-in-group-name">testOneClassTwo</span>
                 <br/>
               </div> <!-- method-in-group -->
               <div class="method-in-group">
-                <span class="method-in-group-name">testThreeClassReturn</span>
+                <span class="method-in-group-name">testThreeClassTwo</span>
                 <br/>
               </div> <!-- method-in-group -->
               <div class="method-in-group">
-                <span class="method-in-group-name">trueFalse</span>
-                <br/>
-              </div> <!-- method-in-group -->
-            </div> <!-- test-group -->
-            <div class="test-group">
-              <span class="test-group-name">void</span>
-              <br/>
-              <div class="method-in-group">
-                <span class="method-in-group-name">testFourClassReturn</span>
-                <br/>
-              </div> <!-- method-in-group -->
-              <div class="method-in-group">
-                <span class="method-in-group-name">testThreeClassReturn</span>
+                <span class="method-in-group-name">testTwoClassTwo</span>
                 <br/>
               </div> <!-- method-in-group -->
             </div> <!-- test-group -->
@@ -445,52 +311,28 @@ data.addColumn('number', 'Number');
 data.addColumn('string', 'Method');
 data.addColumn('string', 'Class');
 data.addColumn('number', 'Time (ms)');
-data.addRows(10);
+data.addRows(4);
 data.setCell(0, 0, 0)
-data.setCell(0, 1, 'names')
-data.setCell(0, 2, 'project.testng.parameterizedtests.ParameterizedTests')
-data.setCell(0, 3, 12);
+data.setCell(0, 1, 'testOneClassTwo')
+data.setCell(0, 2, 'project.testng.tests.TestClass2')
+data.setCell(0, 3, 6);
 data.setCell(1, 0, 1)
-data.setCell(1, 1, 'names')
-data.setCell(1, 2, 'project.testng.parameterizedtests.ParameterizedTests')
+data.setCell(1, 1, 'testFourClassTwo')
+data.setCell(1, 2, 'project.testng.tests.TestClass2')
 data.setCell(1, 3, 5);
 data.setCell(2, 0, 2)
-data.setCell(2, 1, 'salutation')
-data.setCell(2, 2, 'project.testng.testsreturn.TestsReturn')
-data.setCell(2, 3, 4);
+data.setCell(2, 1, 'testThreeClassTwo')
+data.setCell(2, 2, 'project.testng.tests.TestClass2')
+data.setCell(2, 3, 2);
 data.setCell(3, 0, 3)
-data.setCell(3, 1, 'testFourClassReturn')
-data.setCell(3, 2, 'project.testng.testsreturn.TestsReturn')
-data.setCell(3, 3, 4);
-data.setCell(4, 0, 4)
-data.setCell(4, 1, 'trueFalse')
-data.setCell(4, 2, 'project.testng.testsreturn.TestsReturn')
-data.setCell(4, 3, 3);
-data.setCell(5, 0, 5)
-data.setCell(5, 1, 'testThreeClassReturn')
-data.setCell(5, 2, 'project.testng.testsreturn.TestsReturn')
-data.setCell(5, 3, 3);
-data.setCell(6, 0, 6)
-data.setCell(6, 1, 'packageTwoTestThree')
-data.setCell(6, 2, 'project.testng.newtests.Package2Test1')
-data.setCell(6, 3, 3);
-data.setCell(7, 0, 7)
-data.setCell(7, 1, 'packageTwoTestOne')
-data.setCell(7, 2, 'project.testng.newtests.Package2Test1')
-data.setCell(7, 3, 2);
-data.setCell(8, 0, 8)
-data.setCell(8, 1, 'packageTwoTestTwo')
-data.setCell(8, 2, 'project.testng.newtests.Package2Test1')
-data.setCell(8, 3, 2);
-data.setCell(9, 0, 9)
-data.setCell(9, 1, 'packageTwoTestFour')
-data.setCell(9, 2, 'project.testng.newtests.Package2Test1')
-data.setCell(9, 3, 1);
+data.setCell(3, 1, 'testTwoClassTwo')
+data.setCell(3, 2, 'project.testng.tests.TestClass2')
+data.setCell(3, 3, 1);
 window.suiteTableData['Parameterized_Suite']= { tableData: data, tableDiv: 'times-div-Parameterized_Suite'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 39 ms</span>
+              <span class="suite-total-time">Total running time: 14 ms</span>
               <div id="times-div-Parameterized_Suite">
               </div> <!-- times-div-Parameterized_Suite -->
             </div> <!-- times-div -->
@@ -505,16 +347,9 @@ return data;
         </div> <!-- panel -->
         <div panel-name="ignored-methods-Parameterized_Suite" class="panel">
           <div class="main-panel-header rounded-window-top">
-            <span class="header-content">1 ignored method</span>
+            <span class="header-content">0 ignored methods</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
-            <div class="ignored-class-div">
-              <span class="ignored-class-name">project.testng.parameterizedtests.ParameterizedTests</span>
-              <div class="ignored-methods-div">
-                <span class="ignored-method-name">colors</span>
-                <br/>
-              </div> <!-- ignored-methods-div -->
-            </div> <!-- ignored-class-div -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
         <div panel-name="chronological-Parameterized_Suite" class="panel">
@@ -523,76 +358,28 @@ return data;
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <div class="chronological-class">
-              <div class="chronological-class-name">project.testng.parameterizedtests.ParameterizedTests</div> <!-- chronological-class-name -->
-              <div class="test-method">
-                <span class="method-name">names(Natalia, 34, 1.8)</span>
+              <div class="chronological-class-name">project.testng.tests.TestClass2</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">beforeClass</span>
                 <span class="method-start">0 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">testFourClassTwo</span>
+                <span class="method-start">22 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
-                <span class="method-name">names(Maria, 50, 1.6)</span>
-                <span class="method-start">19 ms</span>
-              </div> <!-- test-method -->
-            </div> <!-- chronological-class -->
-            <div class="chronological-class">
-              <div class="chronological-class-name">project.testng.testsreturn.TestsReturn</div> <!-- chronological-class-name -->
-              <div class="test-method">
-                <span class="method-name">salutation(Boa noite!)</span>
-                <span class="method-start">32 ms</span>
+                <span class="method-name">testOneClassTwo</span>
+                <span class="method-start">34 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
-                <span class="method-name">testFourClassReturn</span>
+                <img src="failed.png">
+                </img>
+                <span class="method-name">testThreeClassTwo</span>
                 <span class="method-start">43 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
-                <span class="method-name">testThreeClassReturn</span>
-                <span class="method-start">51 ms</span>
-              </div> <!-- test-method -->
-              <div class="test-method">
-                <span class="method-name">trueFalse</span>
-                <span class="method-start">58 ms</span>
-              </div> <!-- test-method -->
-            </div> <!-- chronological-class -->
-            <div class="chronological-class">
-              <div class="chronological-class-name">project.testng.newtests.Package2Test1</div> <!-- chronological-class-name -->
-              <div class="configuration-test before">
-                <span class="method-name">name(null)</span>
-                <span class="method-start">344 ms</span>
-              </div> <!-- configuration-test before -->
-              <div class="configuration-class before">
-                <span class="method-name">Classname(null)</span>
-                <span class="method-start">348 ms</span>
-              </div> <!-- configuration-class before -->
-              <div class="configuration-method before">
-                <span class="method-name">Methodname(null)</span>
-                <span class="method-start">348 ms</span>
-              </div> <!-- configuration-method before -->
-              <div class="test-method">
-                <span class="method-name">packageTwoTestFour</span>
-                <span class="method-start">350 ms</span>
-              </div> <!-- test-method -->
-              <div class="configuration-method before">
-                <span class="method-name">Methodname(null)</span>
-                <span class="method-start">353 ms</span>
-              </div> <!-- configuration-method before -->
-              <div class="test-method">
-                <span class="method-name">packageTwoTestOne(null)</span>
-                <span class="method-start">354 ms</span>
-              </div> <!-- test-method -->
-              <div class="configuration-method before">
-                <span class="method-name">Methodname(null)</span>
-                <span class="method-start">357 ms</span>
-              </div> <!-- configuration-method before -->
-              <div class="test-method">
-                <span class="method-name">packageTwoTestThree</span>
-                <span class="method-start">358 ms</span>
-              </div> <!-- test-method -->
-              <div class="configuration-method before">
-                <span class="method-name">Methodname(null)</span>
-                <span class="method-start">362 ms</span>
-              </div> <!-- configuration-method before -->
-              <div class="test-method">
-                <span class="method-name">packageTwoTestTwo(null)</span>
-                <span class="method-start">364 ms</span>
+                <span class="method-name">testTwoClassTwo</span>
+                <span class="method-start">50 ms</span>
               </div> <!-- test-method -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->

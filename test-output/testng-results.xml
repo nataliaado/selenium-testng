@@ -1,200 +1,120 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="1" total="11" passed="10" failed="0" skipped="0">
+<testng-results ignored="0" total="4" passed="2" failed="1" skipped="1">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2021-06-08T13:06:30 BRT" name="Parameterized Suite" finished-at="2021-06-08T13:06:30 BRT" duration-ms="410">
+  <suite started-at="2021-06-09T15:08:22 BRT" name="Parameterized Suite" finished-at="2021-06-09T15:08:22 BRT" duration-ms="72">
     <groups>
-      <group name="boolean">
-        <method signature="TestsReturn.trueFalse()[pri:0, instance:project.testng.testsreturn.TestsReturn@8317c52]" name="trueFalse" class="project.testng.testsreturn.TestsReturn"/>
-      </group> <!-- boolean -->
-      <group name="void">
-        <method signature="TestsReturn.testFourClassReturn()[pri:0, instance:project.testng.testsreturn.TestsReturn@8317c52]" name="testFourClassReturn" class="project.testng.testsreturn.TestsReturn"/>
-        <method signature="TestsReturn.testThreeClassReturn()[pri:0, instance:project.testng.testsreturn.TestsReturn@8317c52]" name="testThreeClassReturn" class="project.testng.testsreturn.TestsReturn"/>
-      </group> <!-- void -->
       <group name="unitary-tests">
-        <method signature="TestsReturn.salutation(java.lang.String)[pri:0, instance:project.testng.testsreturn.TestsReturn@8317c52]" name="salutation" class="project.testng.testsreturn.TestsReturn"/>
-        <method signature="TestsReturn.testFourClassReturn()[pri:0, instance:project.testng.testsreturn.TestsReturn@8317c52]" name="testFourClassReturn" class="project.testng.testsreturn.TestsReturn"/>
-        <method signature="TestsReturn.testThreeClassReturn()[pri:0, instance:project.testng.testsreturn.TestsReturn@8317c52]" name="testThreeClassReturn" class="project.testng.testsreturn.TestsReturn"/>
-        <method signature="TestsReturn.trueFalse()[pri:0, instance:project.testng.testsreturn.TestsReturn@8317c52]" name="trueFalse" class="project.testng.testsreturn.TestsReturn"/>
+        <method signature="TestClass2.testFourClassTwo()[pri:0, instance:project.testng.tests.TestClass2@609db43b]" name="testFourClassTwo" class="project.testng.tests.TestClass2"/>
+        <method signature="TestClass2.testOneClassTwo()[pri:0, instance:project.testng.tests.TestClass2@609db43b]" name="testOneClassTwo" class="project.testng.tests.TestClass2"/>
+        <method signature="TestClass2.testThreeClassTwo()[pri:0, instance:project.testng.tests.TestClass2@609db43b]" name="testThreeClassTwo" class="project.testng.tests.TestClass2"/>
+        <method signature="TestClass2.testTwoClassTwo()[pri:0, instance:project.testng.tests.TestClass2@609db43b]" name="testTwoClassTwo" class="project.testng.tests.TestClass2"/>
       </group> <!-- unitary-tests -->
-      <group name="return-tests">
-        <method signature="TestsReturn.salutation(java.lang.String)[pri:0, instance:project.testng.testsreturn.TestsReturn@8317c52]" name="salutation" class="project.testng.testsreturn.TestsReturn"/>
-        <method signature="TestsReturn.testFourClassReturn()[pri:0, instance:project.testng.testsreturn.TestsReturn@8317c52]" name="testFourClassReturn" class="project.testng.testsreturn.TestsReturn"/>
-        <method signature="TestsReturn.testThreeClassReturn()[pri:0, instance:project.testng.testsreturn.TestsReturn@8317c52]" name="testThreeClassReturn" class="project.testng.testsreturn.TestsReturn"/>
-        <method signature="TestsReturn.trueFalse()[pri:0, instance:project.testng.testsreturn.TestsReturn@8317c52]" name="trueFalse" class="project.testng.testsreturn.TestsReturn"/>
-      </group> <!-- return-tests -->
-      <group name="integration">
-        <method signature="TestsReturn.testFourClassReturn()[pri:0, instance:project.testng.testsreturn.TestsReturn@8317c52]" name="testFourClassReturn" class="project.testng.testsreturn.TestsReturn"/>
-        <method signature="TestsReturn.trueFalse()[pri:0, instance:project.testng.testsreturn.TestsReturn@8317c52]" name="trueFalse" class="project.testng.testsreturn.TestsReturn"/>
-      </group> <!-- integration -->
       <group name="unitary">
-        <method signature="TestsReturn.salutation(java.lang.String)[pri:0, instance:project.testng.testsreturn.TestsReturn@8317c52]" name="salutation" class="project.testng.testsreturn.TestsReturn"/>
-        <method signature="TestsReturn.testThreeClassReturn()[pri:0, instance:project.testng.testsreturn.TestsReturn@8317c52]" name="testThreeClassReturn" class="project.testng.testsreturn.TestsReturn"/>
+        <method signature="TestClass2.testOneClassTwo()[pri:0, instance:project.testng.tests.TestClass2@609db43b]" name="testOneClassTwo" class="project.testng.tests.TestClass2"/>
+        <method signature="TestClass2.testTwoClassTwo()[pri:0, instance:project.testng.tests.TestClass2@609db43b]" name="testTwoClassTwo" class="project.testng.tests.TestClass2"/>
       </group> <!-- unitary -->
-      <group name="integration-tests">
-        <method signature="Package2Test1.packageTwoTestFour()[pri:0, instance:project.testng.newtests.Package2Test1@c333c60]" name="packageTwoTestFour" class="project.testng.newtests.Package2Test1"/>
-        <method signature="Package2Test1.packageTwoTestOne(java.lang.String)[pri:0, instance:project.testng.newtests.Package2Test1@c333c60]" name="packageTwoTestOne" class="project.testng.newtests.Package2Test1"/>
-        <method signature="Package2Test1.packageTwoTestThree()[pri:0, instance:project.testng.newtests.Package2Test1@c333c60]" name="packageTwoTestThree" class="project.testng.newtests.Package2Test1"/>
-        <method signature="Package2Test1.packageTwoTestTwo(java.lang.String)[pri:0, instance:project.testng.newtests.Package2Test1@c333c60]" name="packageTwoTestTwo" class="project.testng.newtests.Package2Test1"/>
-      </group> <!-- integration-tests -->
-      <group name="return">
-        <method signature="TestsReturn.salutation(java.lang.String)[pri:0, instance:project.testng.testsreturn.TestsReturn@8317c52]" name="salutation" class="project.testng.testsreturn.TestsReturn"/>
-      </group> <!-- return -->
+      <group name="integration">
+        <method signature="TestClass2.testFourClassTwo()[pri:0, instance:project.testng.tests.TestClass2@609db43b]" name="testFourClassTwo" class="project.testng.tests.TestClass2"/>
+        <method signature="TestClass2.testThreeClassTwo()[pri:0, instance:project.testng.tests.TestClass2@609db43b]" name="testThreeClassTwo" class="project.testng.tests.TestClass2"/>
+      </group> <!-- integration -->
     </groups>
-    <test started-at="2021-06-08T13:06:30 BRT" name="Parameters Tests" finished-at="2021-06-08T13:06:30 BRT" duration-ms="109">
-      <class name="project.testng.testsreturn.TestsReturn">
-        <test-method signature="salutation(java.lang.String)[pri:0, instance:project.testng.testsreturn.TestsReturn@8317c52]" started-at="2021-06-08T13:06:30 BRT" name="salutation" finished-at="2021-06-08T13:06:30 BRT" duration-ms="4" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[Boa noite!]]>
-              </value>
-            </param>
-          </params>
+    <test started-at="2021-06-09T15:08:22 BRT" name="Listener Test" finished-at="2021-06-09T15:08:22 BRT" duration-ms="72">
+      <class name="project.testng.tests.TestClass2">
+        <test-method is-config="true" signature="beforeClass()[pri:0, instance:project.testng.tests.TestClass2@609db43b]" started-at="2021-06-09T15:08:22 BRT" name="beforeClass" finished-at="2021-06-09T15:08:22 BRT" duration-ms="7" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- salutation -->
-        <test-method signature="testFourClassReturn()[pri:0, instance:project.testng.testsreturn.TestsReturn@8317c52]" started-at="2021-06-08T13:06:30 BRT" name="testFourClassReturn" finished-at="2021-06-08T13:06:30 BRT" duration-ms="4" status="PASS">
+        </test-method> <!-- beforeClass -->
+        <test-method signature="testFourClassTwo()[pri:0, instance:project.testng.tests.TestClass2@609db43b]" started-at="2021-06-09T15:08:22 BRT" name="testFourClassTwo" finished-at="2021-06-09T15:08:22 BRT" duration-ms="5" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- testFourClassReturn -->
-        <test-method signature="testThreeClassReturn()[pri:0, instance:project.testng.testsreturn.TestsReturn@8317c52]" started-at="2021-06-08T13:06:30 BRT" name="testThreeClassReturn" finished-at="2021-06-08T13:06:30 BRT" duration-ms="3" status="PASS">
+        </test-method> <!-- testFourClassTwo -->
+        <test-method signature="testOneClassTwo()[pri:0, instance:project.testng.tests.TestClass2@609db43b]" started-at="2021-06-09T15:08:22 BRT" name="testOneClassTwo" finished-at="2021-06-09T15:08:22 BRT" duration-ms="6" status="SKIP">
+          <exception class="org.testng.SkipException">
+            <message>
+              <![CDATA[Skipped test]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.testng.SkipException: Skipped test
+at project.testng.tests.TestClass2.testOneClassTwo(TestClass2.java:20)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:134)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:597)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:816)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:766)
+at org.testng.TestRunner.run(TestRunner.java:587)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:384)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:378)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:337)
+at org.testng.SuiteRunner.run(SuiteRunner.java:286)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1187)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1109)
+at org.testng.TestNG.runSuites(TestNG.java:1039)
+at org.testng.TestNG.run(TestNG.java:1007)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.testng.SkipException -->
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- testThreeClassReturn -->
-        <test-method signature="trueFalse()[pri:0, instance:project.testng.testsreturn.TestsReturn@8317c52]" started-at="2021-06-08T13:06:30 BRT" name="trueFalse" finished-at="2021-06-08T13:06:30 BRT" duration-ms="3" status="PASS">
+        </test-method> <!-- testOneClassTwo -->
+        <test-method signature="testThreeClassTwo()[pri:0, instance:project.testng.tests.TestClass2@609db43b]" started-at="2021-06-09T15:08:22 BRT" name="testThreeClassTwo" finished-at="2021-06-09T15:08:22 BRT" duration-ms="2" status="FAIL">
+          <exception class="com.google.inject.internal.ErrorsException">
+            <full-stacktrace>
+              <![CDATA[com.google.inject.internal.ErrorsException
+at project.testng.tests.TestClass2.testThreeClassTwo(TestClass2.java:31)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:134)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:597)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:816)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:766)
+at org.testng.TestRunner.run(TestRunner.java:587)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:384)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:378)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:337)
+at org.testng.SuiteRunner.run(SuiteRunner.java:286)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1187)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1109)
+at org.testng.TestNG.runSuites(TestNG.java:1039)
+at org.testng.TestNG.run(TestNG.java:1007)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- com.google.inject.internal.ErrorsException -->
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- trueFalse -->
-      </class> <!-- project.testng.testsreturn.TestsReturn -->
-      <class name="project.testng.parameterizedtests.ParameterizedTests">
-        <test-method signature="names(java.lang.String, int, double)[pri:0, instance:project.testng.parameterizedtests.ParameterizedTests@78ffe6dc]" started-at="2021-06-08T13:06:30 BRT" name="names" data-provider="data_tests" finished-at="2021-06-08T13:06:30 BRT" duration-ms="12" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[Natalia]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[34]]>
-              </value>
-            </param>
-            <param index="2">
-              <value>
-                <![CDATA[1.8]]>
-              </value>
-            </param>
-          </params>
+        </test-method> <!-- testThreeClassTwo -->
+        <test-method signature="testTwoClassTwo()[pri:0, instance:project.testng.tests.TestClass2@609db43b]" started-at="2021-06-09T15:08:22 BRT" name="testTwoClassTwo" finished-at="2021-06-09T15:08:22 BRT" duration-ms="1" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- names -->
-        <test-method signature="names(java.lang.String, int, double)[pri:0, instance:project.testng.parameterizedtests.ParameterizedTests@78ffe6dc]" started-at="2021-06-08T13:06:30 BRT" name="names" data-provider="data_tests" finished-at="2021-06-08T13:06:30 BRT" duration-ms="5" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[Maria]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[50]]>
-              </value>
-            </param>
-            <param index="2">
-              <value>
-                <![CDATA[1.6]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- names -->
-      </class> <!-- project.testng.parameterizedtests.ParameterizedTests -->
-    </test> <!-- Parameters Tests -->
-    <test started-at="2021-06-08T13:06:30 BRT" name="Parameters Tests 2" finished-at="2021-06-08T13:06:30 BRT" duration-ms="24">
-      <class name="project.testng.newtests.Package2Test1">
-        <test-method is-config="true" signature="name(java.lang.String)[pri:0, instance:project.testng.newtests.Package2Test1@c333c60]" started-at="2021-06-08T13:06:30 BRT" name="name" finished-at="2021-06-08T13:06:30 BRT" duration-ms="3" status="PASS">
-          <params>
-            <param index="0">
-              <value is-null="true"/>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- name -->
-        <test-method is-config="true" signature="Methodname(java.lang.String)[pri:0, instance:project.testng.newtests.Package2Test1@c333c60]" started-at="2021-06-08T13:06:30 BRT" name="Methodname" finished-at="2021-06-08T13:06:30 BRT" duration-ms="1" status="PASS">
-          <params>
-            <param index="0">
-              <value is-null="true"/>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- Methodname -->
-        <test-method is-config="true" signature="Classname(java.lang.String)[pri:0, instance:project.testng.newtests.Package2Test1@c333c60]" started-at="2021-06-08T13:06:30 BRT" name="Classname" finished-at="2021-06-08T13:06:30 BRT" duration-ms="0" status="PASS">
-          <params>
-            <param index="0">
-              <value is-null="true"/>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- Classname -->
-        <test-method signature="packageTwoTestFour()[pri:0, instance:project.testng.newtests.Package2Test1@c333c60]" started-at="2021-06-08T13:06:30 BRT" name="packageTwoTestFour" finished-at="2021-06-08T13:06:30 BRT" duration-ms="1" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- packageTwoTestFour -->
-        <test-method is-config="true" signature="Methodname(java.lang.String)[pri:0, instance:project.testng.newtests.Package2Test1@c333c60]" started-at="2021-06-08T13:06:30 BRT" name="Methodname" finished-at="2021-06-08T13:06:30 BRT" duration-ms="1" status="PASS">
-          <params>
-            <param index="0">
-              <value is-null="true"/>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- Methodname -->
-        <test-method signature="packageTwoTestOne(java.lang.String)[pri:0, instance:project.testng.newtests.Package2Test1@c333c60]" started-at="2021-06-08T13:06:30 BRT" name="packageTwoTestOne" finished-at="2021-06-08T13:06:30 BRT" duration-ms="2" status="PASS">
-          <params>
-            <param index="0">
-              <value is-null="true"/>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- packageTwoTestOne -->
-        <test-method is-config="true" signature="Methodname(java.lang.String)[pri:0, instance:project.testng.newtests.Package2Test1@c333c60]" started-at="2021-06-08T13:06:30 BRT" name="Methodname" finished-at="2021-06-08T13:06:30 BRT" duration-ms="1" status="PASS">
-          <params>
-            <param index="0">
-              <value is-null="true"/>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- Methodname -->
-        <test-method signature="packageTwoTestThree()[pri:0, instance:project.testng.newtests.Package2Test1@c333c60]" started-at="2021-06-08T13:06:30 BRT" name="packageTwoTestThree" finished-at="2021-06-08T13:06:30 BRT" duration-ms="3" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- packageTwoTestThree -->
-        <test-method is-config="true" signature="Methodname(java.lang.String)[pri:0, instance:project.testng.newtests.Package2Test1@c333c60]" started-at="2021-06-08T13:06:30 BRT" name="Methodname" finished-at="2021-06-08T13:06:30 BRT" duration-ms="2" status="PASS">
-          <params>
-            <param index="0">
-              <value is-null="true"/>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- Methodname -->
-        <test-method signature="packageTwoTestTwo(java.lang.String)[pri:0, instance:project.testng.newtests.Package2Test1@c333c60]" started-at="2021-06-08T13:06:30 BRT" name="packageTwoTestTwo" finished-at="2021-06-08T13:06:30 BRT" duration-ms="2" status="PASS">
-          <params>
-            <param index="0">
-              <value is-null="true"/>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- packageTwoTestTwo -->
-      </class> <!-- project.testng.newtests.Package2Test1 -->
-    </test> <!-- Parameters Tests 2 -->
+        </test-method> <!-- testTwoClassTwo -->
+      </class> <!-- project.testng.tests.TestClass2 -->
+    </test> <!-- Listener Test -->
   </suite> <!-- Parameterized Suite -->
 </testng-results>
